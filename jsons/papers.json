@@ -1,0 +1,27 @@
+[
+  {
+    "authors": "Michail Kinnas, John Violos, Nikolaos Ioannis Karapiperis, and Ioannis Kompatsiaris",
+    "title": "Selecting Images With Entropy for Frugal Knowledge Distillation",
+    "link": "https://ieeexplore.ieee.org/document/10878975",
+    "journal": "IEEE Access",
+    "year": 2025,
+    "github": "https://github.com/michaelkinnas/Selecting-Images-with-Entropy-for-Frugal-Knowledge-Distillation"
+  },
+  {
+    "authors": "G. Karantaidis, A. Pantsios, I. Kompatsiaris, and S. Papadopoulos",
+    "title": "IncSAR: A Dual Fusion Incremental Learning Framework for SAR Target Recognition",
+    "link": "https://ieeexplore.ieee.org/document/10838563",
+    "journal": "IEEE Access",
+    "year": 2023,
+    "github": "https://github.com/geokarant/IncSAR"
+  },
+  {
+    "authors": "Federico D’Asaro, Sara De Luca, Lorenzo Bongiovanni, Giuseppe Rizzo, Symeon Papadopoulos, Manos Schinas, and Christos Koutlis",
+    "title": "Zero-Shot Content-Based Crossmodal Recommendation System",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0957417424019754",
+    "journal": "Expert Systems with Applications.",
+    "year": 2024,
+    "github": ""
+
+  }
+]

@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Active menu highlight */
+.nav-links .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Papers Section */
+.papers-section {
+    max-width: 1280px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 80px auto auto;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput, #yearFilter {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Paper List */
+.paper-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.paper-item:last-child {
+    border-bottom: none;
+}
+
+.paper-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.paper-item a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+.paper-item a:hover {
+    text-decoration: underline;
+}
+.btn{
+    border: 1px solid #1565c0;
+    display: inline-block;
+    padding: 4px 6px;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    border-radius: .2rem;
+    color: #fff !important;
+    background-color: #1565c0;
+}
+
+
+
+
