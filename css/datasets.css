@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Active menu highlight */
+.nav-links .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Datasets Section */
+.datasets-section {
+    max-width: 1280px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 80px auto auto;
+}
+
+/* Year Header */
+.dataset-year {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px 0;
+    border-bottom: 3px solid #ddd;
+}
+
+/* Dataset List */
+.dataset-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.dataset-item:last-child {
+    border-bottom: none;
+}
+
+.dataset-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.dataset-item a:hover {
+    text-decoration: underline;
+}
+
+/* Dataset Description */
+.dataset-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+.dataset-item:last-child {
+    border-bottom: none;
+}
+
+.dataset-item:not(:last-child):has(+ .dataset-year) {
+    border-bottom: none;
+}

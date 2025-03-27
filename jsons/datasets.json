@@ -1,0 +1,26 @@
+[
+  {
+    "title": "VERITE Benchmark v1.0",
+    "year": 2024,
+    "description": "VERITE is a benchmark dataset designed for evaluating multimodal misinformation detection models. The dataset consists of real-world instances of misinformation collected from Snopes and Reuters and addresses unimodal bias by excluding asymmetric misinformation and employing modality balancing. The images are sourced from within the articles of Snopes and Reuters, as well as Google Images. As we do not own the rights to the images, the dataset provide the image URLs along with their captions and labels. VERITE supports multiclass classification of three categories: Truthful, Out-of-context, and Miscaptioned image-caption pairs but can also be used for binary classification. We collected 260 articles from Snopes and 78 from Reuters that met our criteria which translates to 338 Truthful, 338 Miscaptioned and 324 Out-of-Context pairs. The dataset was developed in the context of the vera.ai (VERification Assisted by Artificial Intelligence) project.",
+    "link": "https://zenodo.org/records/10474450"
+  },
+  {
+    "title": "InVID Fake Video Corpus 2018 (v3.0)",
+    "year": 2018,
+    "description": "The InVID TV Fake Video Corpus was developed in the context of the InVID project with the aim of gaining a perspective of the types of fake video that can be encountered in the real world. This third version of the dataset, published near the end of the project, has been extended to include 200 fake videos and 180 real ones. Furthermore, using crawling and near-duplicate retrieval, a large number of near-duplicates of each fake and real video have been collected, leading to a total of 3957 videos annotated as fake and 2458 annotated as real. The videos are temporally ordered in cascades and accompanied by their metadata. As we do not own the rights to the videos, the dataset only contains the video URLs and annotations.",
+    "link": "https://zenodo.org/record/2535479#.XDSkf1UzaUk"
+  },
+  {
+    "title": "InVID FIVR-200K",
+    "year": 2019,
+    "description": "The InVID FIVR-200K dataset has been developed in the context of the InVID project with the aim of simulating the problem of Fine-grained Incident Video Retrieval (FIVR). FIVR is the problem where: given a query video, the objective is to retrieve all associated videos, considering several types of associations that range from duplicate videos to videos from the same incident. To address the benchmarking needs of such problem, the large-scale video dataset FIVR-200K has been constructed. It comprises 225,960 YouTube videos collected based on 4,687 major news events crawled from Wikipedia, and 100 video queries selected based on an automatic selection process. For the annotation of the dataset, an annotation protocol has been devised with respect to four types of video associations, i.e., Near-Duplicate Videos (ND), Duplicate Scene Videos (DS), Complementary Scene Videos (CS), and Incident Scene Videos (IS). To this end, FIVR-200K dataset contains the list of the collected Youtube ids, the crawled events from Wikipedia and the video annotations, which include the set of videos for each associations type for each query in the dataset.",
+    "link": "https://zenodo.org/record/2564864#.XGVW6lUzaUk"
+  },
+  {
+    "title": "InVID TV Logo Dataset v2.0",
+    "year": 2018,
+    "description": "This dataset was created with the purpose of providing a training and evaluation benchmark for TV logo detection in videos. It contains the results from the segmentation and annotation of 2,749 YouTube videos originating from a large number of news TV channels, The videos have been annotated with respect to the TV channel logos they contain -specifically, by the name of the organization to which the logo belongs- and with shot boundary information. Furthermore, a set of logo templates has been extracted from the videos and organized alongside the corresponding channel information. As we do not own the rights to the videos, the dataset only contains the YouTube video IDs alongside the corresponding annotations. It further contains 503 logo template files and the corresponding metadata information (channel name, wikipedia link). See the README file for details. This is the second version of the dataset, including various corrections in annotation.",
+    "link": "https://zenodo.org/record/2557474#.XFl6HFUzaUk"
+  }
+]
